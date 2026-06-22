@@ -13,19 +13,15 @@ export default function App() {
       <div className="app-container">
         <Header activeRegion={activeRegion} />
         <main className="dashboard-grid">
-          <div className="panel" style={{ gridColumn: '1', gridRow: '1' }}>
+          <div className="panel panel-map">
             <MapPanel onRegionSelect={setActiveRegion} activeRegion={activeRegion} />
           </div>
 
-          <div className="panel" style={{
-            gridColumn: '2',
-            gridRow: '1 / span 2',
-            overflowY: 'auto'
-          }}>
+          <div className="panel panel-stats">
             <StatsPanel activeRegion={activeRegion} onRegionSelect={setActiveRegion} />
           </div>
 
-          <div className="panel" style={{ gridColumn: '1', gridRow: '2' }}>
+          <div className="panel panel-charts">
             <ChartsPanel activeRegion={activeRegion} />
           </div>
         </main>

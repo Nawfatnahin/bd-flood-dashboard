@@ -117,6 +117,22 @@ a { text-decoration: none; color: inherit; }
   background: var(--bg-2);
 }
 
+.panel-map {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.panel-stats {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  overflow-y: auto;
+}
+
+.panel-charts {
+  grid-column: 1;
+  grid-row: 2;
+}
+
 /* ═══════════════════════════════════════════════════════════
    PANELS — modern glassmorphism
 ════════════════════════════════════════════════════════════ */
@@ -397,9 +413,9 @@ a { text-decoration: none; color: inherit; }
     overflow-y: visible;
   }
 
-  .dashboard-grid > .panel:nth-child(1) { grid-column: 1; grid-row: 1; min-height: 340px; }
-  .dashboard-grid > .panel:nth-child(2) { grid-column: 1; grid-row: 2; }
-  .dashboard-grid > .panel:nth-child(3) { grid-column: 1; grid-row: 3; min-height: 260px; }
+  .dashboard-grid > .panel-map { grid-column: 1; grid-row: 1; min-height: 340px; }
+  .dashboard-grid > .panel-stats { grid-column: 1; grid-row: 2; overflow-y: visible; }
+  .dashboard-grid > .panel-charts { grid-column: 1; grid-row: 3; min-height: 260px; }
 
   .panel {
     border-radius: var(--r-md);
@@ -426,8 +442,8 @@ a { text-decoration: none; color: inherit; }
     padding: 8px;
   }
 
-  .dashboard-grid > .panel:nth-child(1) { min-height: 260px; }
-  .dashboard-grid > .panel:nth-child(3) { min-height: 220px; }
+  .dashboard-grid > .panel-map { min-height: 260px; }
+  .dashboard-grid > .panel-charts { min-height: 220px; }
 
   .panel {
     border-radius: var(--r-sm);
