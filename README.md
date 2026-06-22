@@ -270,5 +270,3 @@ This project references data frameworks maintained by:
 - **WorldPop, University of Southampton** — High-resolution population grids
 
 ---
-
-*Built with React 18, react-leaflet, and recharts. Zero UI frameworks. Zero rounded corners.*
