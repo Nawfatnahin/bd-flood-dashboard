@@ -16,7 +16,6 @@ Bangladesh is one of the most flood-affected countries on Earth. Sitting at the 
 
 This dashboard provides an interactive terminal-style interface to explore flood vulnerability data across Bangladesh's 8 administrative divisions (Dhaka, Chittagong, Khulna, Rajshahi, Sylhet, Barisal, Rangpur, and Mymensingh), surfacing population impact, infrastructure gaps, risk classification, and historical flood incident trends.
 
-The design deliberately avoids generic "dashboard aesthetics." It takes inspiration from **Bloomberg Terminals** and modern data journalism sites like **The Pudding** — choosing precision typography and editorial restraint over decorative polish.
 
 ---
 
