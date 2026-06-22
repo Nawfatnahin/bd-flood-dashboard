@@ -2,11 +2,11 @@
 
 > An "Editorial Data Terminal" — an interactive geospatial dashboard visualizing Bangladesh's flood vulnerability across all 8 administrative divisions, built as a portfolio-grade data visualization project.
 
----
+[![Deploy to GitHub Pages](https://github.com/Nawfatnahin/bd-flood-dashboard/actions/workflows/deploy.yml/badge.svg)](https://github.com/Nawfatnahin/bd-flood-dashboard/actions/workflows/deploy.yml)
 
-## 🌊 Live Preview
+## 🌊 Live Site
 
-> Run locally with `npm install && npm run dev`
+**[nawfatnahin.github.io/bd-flood-dashboard](https://nawfatnahin.github.io/bd-flood-dashboard/)**
 
 ---
 
