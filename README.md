@@ -12,7 +12,7 @@
 
 ## 📌 Overview
 
-Bangladesh is one of the most flood-affected countries on Earth. Sitting at the confluence of the Padma, Jamuna, and Meghna river systems — with over 80% of its land area classified as floodplain — it experiences severe monsoon flooding, flash floods, and cyclones every year.
+Bangladesh is one of the most flood-affected countries on Earth. Sitting at the confluence of the Padma, Jamuna, and Meghna river systems with over 80% of its land area classified as floodplain , it experiences severe monsoon flooding, flash floods, and cyclones every year.
 
 This dashboard provides an interactive terminal-style interface to explore flood vulnerability data across Bangladesh's 8 administrative divisions (Dhaka, Chittagong, Khulna, Rajshahi, Sylhet, Barisal, Rangpur, and Mymensingh), surfacing population impact, infrastructure gaps, risk classification, and historical flood incident trends.
 
@@ -270,3 +270,6 @@ This project references data frameworks maintained by:
 - **WorldPop, University of Southampton** — High-resolution population grids
 
 ---
+
+## Note:
+This project was developed with the assistance of advanced artificial intelligence technologies to enhance efficiency, innovation and overall development quality.
